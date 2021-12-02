@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+}
+header
+{
+    display: grid;
+    grid-template-columns: 150px auto;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+header a
+{
+    z-index: 2;
+}
+.logo
+{
+    width: 100px;
+    z-index: 2;
+}
+#logo_link
+{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    background-color: #0c020f;
+    padding: 0;
+}
+nav a
+{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover
+{
+    font-size: 20px;
+    text-size-adjust: 10px;
+}
+h1
+{
+    text-align: left;
+    padding-left: 500px;
+
+}
+h2
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.Family
+{
+    width: 100%;
+    z-index: 2;
+}
+/* Kaite page */
+.home_grid section
+{
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+#Katie_portrait
+{
+    width: 600px;
+}
