@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Bentham|Lato');
+
+/* homepage css */
+
+/*
+    header
+*/
+header
+{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgb(29, 74, 29);
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    
+}
+header a
+{
+    z-index: 2;
+}
+.logo
+{
+    width: 100px;
+}
+#logo_link
+{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    background-color: rgb(29, 74, 29); 
+    font-size: 110%;
+}
+nav a
+{
+    text-align: center;
+    color: rgb(230, 0, 0);
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover
+{
+    text-decoration: underline;
+    color: #0c020f;
+    font-size: 20px;
+    text-size-adjust: 10px;
+}
+body
+{
+    background-color: black;
+}
